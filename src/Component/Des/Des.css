@@ -1,0 +1,96 @@
+.i{
+  display: flex;
+  height: 100vh;
+}
+.i-lef{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-righ{
+  flex: 1;
+}
+.pp{
+  height: 544px;
+  width: 544px ;
+}
+.i-name{
+  line-height: 1.5rem;
+  font-weight: 400;
+  display: inline;
+}
+.i-title{
+  height: 50px;
+  overflow: hidden;
+}
+.css-tdpwhk {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.css-1uuf3mk {
+  color:  #59b256;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.css-1g00jke {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  display: inline;
+}
+.i-title-item{
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center; 
+}
+.css-w6u7no {
+  width: 75%;
+  height: 100%;
+  display: inline-block;
+  line-height: 1em;
+  flex-shrink: 0;
+  color: currentcolor;
+  vertical-align: middle;
+}
+.c{
+  background: conic-gradient(from 90deg at 50% 51.52%, #4589FF 0deg, #FF7EB6 141.23deg, #F1C21B 231.23deg, #49CD7A 287.48deg, #4589FF 360deg);
+  -webkit-background-size: 200% 100%;
+  background-size: 200% 100%;
+  -webkit-animation: hue 6s infinite alternate;
+  animation: hue 6s infinite alternate;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: hue;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@-webkit-keyframes hue {
+  0% {
+      -webkit-filter: hue-rotate(0deg);
+  }
+
+  100% {
+      -webkit-filter: hue-rotate(-1turn);
+  }
+}
+
+@keyframes hue {
+  0% {
+      -webkit-filter: hue-rotate(0deg);
+  }
+
+  100% {
+      -webkit-filter: hue-rotate(-1turn);
+  }
+}

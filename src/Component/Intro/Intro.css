@@ -1,0 +1,55 @@
+.i{
+  max-width: 1200p;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+.i-intro{
+  font-size: 4rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+}
+.i-name{
+  line-height: 1.5rem;
+  font-weight: 400;
+  display: inline;
+}
+
+.i-title{
+  height: 50px;
+  overflow: hidden;
+}
+.css-tdpwhk {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.css-1uuf3mk {
+  color:  #59b256;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.css-1g00jke {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  display: inline;
+}
+
+.i-title-item{
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center;
+}
+.i-bg{
+  width: 344px;
+  height: 344px;
+
+}
+@media only screen and (max-device-width: 480px) {
+ 
+
+}

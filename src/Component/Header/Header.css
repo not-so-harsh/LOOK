@@ -1,0 +1,63 @@
+.con{
+  border-radius: 24px;
+  outline: 2px solid transparent;
+  border-width: 1px;
+  border-color: #2de370;
+  background: #2de370;
+  background-color: #2de370;
+  color: #000000;
+  height: 3rem;
+  min-width: 5rem;
+  font-size: var(--lr-fontSizes-sm);  
+}
+.look{
+  height: 110px;
+  width: 140px;
+}
+.css-1h4sxr7 {
+  color: var(--lr-colors-text-01);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  background: conic-gradient(from 90deg at 50% 51.52%, #4589FF 0deg, #FF7EB6 141.23deg, #F1C21B 231.23deg, #49CD7A 287.48deg, #4589FF 360deg);
+  -webkit-background-size: 200% 100%;
+  background-size: 200% 100%;
+  -webkit-animation: hue 6s infinite alternate;
+  animation: hue 6s infinite alternate;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: hue;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@-webkit-keyframes hue {
+  0% {
+      -webkit-filter: hue-rotate(0deg);
+  }
+
+  100% {
+      -webkit-filter: hue-rotate(-1turn);
+  }
+}
+
+@keyframes hue {
+  0% {
+      -webkit-filter: hue-rotate(0deg);
+  }
+
+  100% {
+      -webkit-filter: hue-rotate(-1turn);
+  }
+}
+@media screen and (min-width:48rem) {
+  .head{
+ 
+    height: 5rem;
+  }
+  
+}
