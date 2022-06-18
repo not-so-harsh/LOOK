@@ -36,8 +36,8 @@ const Header = () => {
   return (
     <div>
       <div className="">
-        <nav className=" flex items-center justify-between w-full z-20   fixed h-20 ">
-          <div className=" w-full    flex">
+        <nav className=" flex items-center justify-between z-5 w-full fixed h-20 ">
+          <div className=" w-full flex">
             <div className="head  flex items-center justify-between h-16 w-full ">
               <div className="w-full justify-between flex items-center">
                 <div className="ml-8 leading-6 flex  items-center justify-start ">
@@ -74,7 +74,7 @@ const Header = () => {
                 {
                   (!isMobile) ? (
                     <div className='flex w-full'>
-                      <div className="flex items-center ml-4  w-full">
+                      <div className="flex items-center ml-4 w-full">
                         <div className="mx-4 grow" >
                           <button type="button" onClick={() => { setmodalOpen(value => !value) }} className="inline-flex items-center relative align-middle outline-offset-2 px-4 w-full font-semibold  rounded-3xl leading-5 bg-gray-200 hover:bg-gray-300 h-12 min-w-48 max-w-lg text-sm" >
                             <div className="flex items-start w-full">
@@ -86,12 +86,12 @@ const Header = () => {
                             </div>
                           </button>
                           <div className=''>
-                            <Modal className='h-[10rem] w-[48rem] fixed top-0 left-1/4 bg-white rounded  border-2' isOpen={modalIsOpen} onRequestClose={() => { setmodalOpen(false) }}>
+                            <Modal className='h-[10rem] w-[48rem] opacity-100 bg-white z-50 absolute top-0 left-1/4 rounded  border-2' isOpen={modalIsOpen} onRequestClose={() => { setmodalOpen(false) }}>
                               <div className='h-[48rem] w-[48rem]'>
                                 <div class="flex pl-4 pt-3 pb-3">
                                   <div class="flex flex-1">
                                     <div class="w-full flex relative">
-                                      <div class="h-12 w-12 text-base flex items-center justify-center absolute z-20">
+                                      <div class="h-12 w-12 text-base flex items-center justify-center absolute z-90">
                                         <svg viewBox="0 0 24 24" focusable="false" class="h-6 w-6 align-middle inline-block ">
                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 10.5C18.7508 12.4206 18.0735 14.2799 16.8375 15.75L22.5 21.4425L21.4425 22.5L15.75 16.8375C14.2799 18.0735 12.4206 18.7508 10.5 18.75C5.94365 18.75 2.25 15.0563 2.25 10.5C2.25 5.94365 5.94365 2.25 10.5 2.25C15.0563 2.25 18.75 5.94365 18.75 10.5ZM3.75 10.5C3.75 14.2279 6.77208 17.25 10.5 17.25C14.2279 17.25 17.25 14.2279 17.25 10.5C17.25 6.77208 14.2279 3.75 10.5 3.75C6.77208 3.75 3.75 6.77208 3.75 10.5Z" fill="currentColor"></path>
                                         </svg>

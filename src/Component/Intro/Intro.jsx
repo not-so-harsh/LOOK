@@ -28,7 +28,7 @@ const Intro = () => {
         <div className='i-right w-min-[16rem] align-middle' >
           <div className="h-[21rem] w-[21rem]  relative">
             <img src='https://looksrare.mo.cloudinary.net/0x160C404B2b49CBC3240055CEaEE026df1e8497A0/0xd232bd752a18eada5f2180674a497f9a75b978ab4e3ca1e54e84655e076be71d?resource_type=image&f=auto&c=limit&w=480&q=auto' />
-            <div className='absolute z-1 top-2 left-2'>
+            <div className='absolute top-2 left-2'>
               <div className='font-semibold '>
                 <span className='inline-flex align-top items-center max-w-full font-semibold leading-5 rounded-md bg-gray-200 py-1.5  '>
                   <span className='leading-4 overflow-hidden text-ellipsis whitespace-nowrap'>
